@@ -11,5 +11,6 @@ namespace RestarauntData
         public string Name { get; set; }
         public List<double> Ratings { get; set; }
         public string Review { get; set; }
+        public string ZipCode{ get; set; }
     }
 }
