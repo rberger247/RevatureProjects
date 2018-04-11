@@ -10,6 +10,14 @@ namespace Employees
     {
         static void Main(string[] args)
         {
+
+            Manager manager = new Manager();
+            Employee employee = new Employee();
+            employee.calculateSalary(sal: 2);
+            employee.subRole();
+            manager.Routine();
+            manager.subRole();
+            Console.ReadLine();
         }
     }
 }
