@@ -17,6 +17,7 @@ namespace Employees
             employee.subRole();
             manager.Routine();
             manager.subRole();
+            manager.calculateSalary(sal: 1);
             Console.ReadLine();
         }
     }
