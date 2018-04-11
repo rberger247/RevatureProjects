@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaraunt3", "Restaraunt3\Restaraunt3.csproj", "{D7DEF774-C5BF-4F6B-8C1C-CC57B007CCFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestarauntData", "RestarauntData\RestarauntData.csproj", "{8E480F0D-ABC6-4ED9-866B-C24FCB9E3611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7DEF774-C5BF-4F6B-8C1C-CC57B007CCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DEF774-C5BF-4F6B-8C1C-CC57B007CCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DEF774-C5BF-4F6B-8C1C-CC57B007CCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DEF774-C5BF-4F6B-8C1C-CC57B007CCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E480F0D-ABC6-4ED9-866B-C24FCB9E3611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E480F0D-ABC6-4ED9-866B-C24FCB9E3611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E480F0D-ABC6-4ED9-866B-C24FCB9E3611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E480F0D-ABC6-4ED9-866B-C24FCB9E3611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B629757C-BE13-46CB-A9BF-993886FDA8AE}
+	EndGlobalSection
+EndGlobal
