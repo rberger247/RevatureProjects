@@ -6,18 +6,28 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    class Employee : Person
+    class Employee : Person , IAmex, IChase
     {
 
         public double Salary { get; set; }
-       
-      //  Employee employee = new Employee() { Name = ""};
+        public string ccNum { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int cvv { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+
         
-        public override void Routine()
+
+        //  Employee employee = new Employee() { Name = ""};
+
+        //public override void Routine(int employeeId, string optionalEmail = "")
+        //{
+        //    Console.WriteLine( $" employee with employee Id {employeeId} Does not need to do much");
+        //}
+
+        public override void Routine(int employeeId, string optionalEmail = "default")
         {
-            Console.WriteLine("I am very Lazy employee");
+            base.Routine(employeeId, optionalEmail);
         }
-       public virtual void subRole()
+        public virtual void subRole()
         {
 
             Console.WriteLine("I am an employee and my sub role is to eats french fries");
@@ -29,6 +39,14 @@ namespace Employees
             return 2;
         }
 
+        public string offer(int CreditScore, decimal salary)
+        {
+            throw new NotImplementedException();
+        }
 
+        public decimal availableBalance(decimal expenditure, decimal limit)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

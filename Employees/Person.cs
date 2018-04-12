@@ -6,14 +6,26 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-  abstract class Person
+    class Person
     {
-        public string Name { get; set; }
-        public string SSN { get; set; }
+        private string name;
+        public string _name { get { return name; } set { name = value; } }
+        protected string SSN;
+        public DateTime DOB { get; set; }
+        protected decimal money;
+        public decimal  _money {
+       
+            set { money = value; } }
+        //public Person(string name)
+        //{
 
-        public abstract void Routine();
+        //    this.name = name;
+        //}
 
 
+        //     public abstract void Routine(int employeeId, string optionalEmail = "default");
+
+        public virtual void Routine(int employeeId, string optionalEmail = "default") { }
 
 
     }

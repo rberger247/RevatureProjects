@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Credit.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Interfaces\IAmex.cs" />
+    <Compile Include="Interfaces\IChase.cs" />
+    <Compile Include="Interfaces\ICredit.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
