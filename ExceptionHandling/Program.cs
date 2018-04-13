@@ -32,6 +32,7 @@ namespace ExceptionHandling
                 //Logger logger = LogManager.GetCurrentClassLogger();
                 //logger.Debug("Hello World!");
                 Logger logger = LogManager.GetLogger("databaseLogger");
+                //Console.WriteLine();
                 logger.Error(ex);
 
                 Console.WriteLine(ex.Message);
